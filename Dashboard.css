@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+    color: #333;
+  }
+  
+  /* Dashboard Container */
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 2.5rem;
+    color: #27ae60;
+  }
+  
+  /* Search Input */
+  .search-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+  }
+  
+  /* Item Form */
+  .item-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .item-form input,
+  .item-form select {
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    flex: 1;
+    font-size: 1rem;
+  }
+  
+  .item-form button {
+    padding: 10px 20px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .item-form button:hover {
+    background: #219150;
+  }
+  
+  /* Pantry Items */
+  .pantry-items {
+    margin-top: 20px;
+  }
+  
+  .item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .item-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .item-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .item-card.expiring {
+    border: 2px solid #27ae60; /* Red border for expiring items */
+  }
+  
+  .item-card h3 {
+    font-size: 1.5rem;
+    color: #27ae60;
+  }
+  
+  .actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actions button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #27ae60;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .actions button:hover {
+    background: #27ae60;
+  }
+  
+  /* Footer */
+  .dashboard-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
