@@ -1,0 +1,31 @@
+.app-header {
+    background-color: #27ae60; /* Lighter blue color */
+    padding: 20px; /* Increased padding */
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    color: white; /* Text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .app-header nav {
+    display: flex; /* Flexbox for navigation links */
+    gap: 20px; /* Increased space between links */
+  }
+  
+  .app-header a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.1rem; /* Font size */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .app-header a:hover {
+    color: #1abc9c; /* Change color on hover */
+  }
+  
